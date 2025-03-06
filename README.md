@@ -85,7 +85,7 @@ Then in your code:
 js
 fetch(${process.env.NEXT_PUBLIC_API_URL}/tasks/)
 
-## **6. Additional Notes
+## **6. Additional Notes**
 
 **CORS**: Ensure your FastAPI app is configured to allow requests from http://localhost:3000.
 **Database**: By default, this example uses SQLite. For production, consider PostgreSQL or another robust database.
@@ -93,11 +93,11 @@ fetch(${process.env.NEXT_PUBLIC_API_URL}/tasks/)
 Backend can be deployed on services like Railway, Heroku, or AWS.
 Frontend can be deployed on Vercel or Netlify.
 
-## **7. Contributing
+## **7. Contributing**
 1. Fork the repo and create a new branch.
 2. Make your changes and test thoroughly.
 3. Submit a pull request explaining your changes.
 
-## **8. License
+## **8. License**
 This project is licensed under the MIT License. Feel free to use and modify this code.
 
