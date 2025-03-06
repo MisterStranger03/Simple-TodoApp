@@ -87,9 +87,9 @@ fetch(${process.env.NEXT_PUBLIC_API_URL}/tasks/)
 
 ## **6. Additional Notes**
 
-**CORS**: Ensure your FastAPI app is configured to allow requests from http://localhost:3000.
-**Database**: By default, this example uses SQLite. For production, consider PostgreSQL or another robust database.
-**Deployment**:
+CORS: Ensure your FastAPI app is configured to allow requests from http://localhost:3000.
+Database: By default, this example uses SQLite. For production, consider PostgreSQL or another robust database.
+Deployment:
 Backend can be deployed on services like Railway, Heroku, or AWS.
 Frontend can be deployed on Vercel or Netlify.
 
