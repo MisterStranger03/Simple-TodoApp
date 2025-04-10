@@ -14,8 +14,8 @@ A simple TODO application with a **FastAPI** backend and a **Next.js** frontend.
 
 ## **1. Cloning the Repository**
 
-git clone [https://github.com/yourusername/your-repo.git ](https://github.com/MisterStranger03/Simple-TodoApp.git)
-cd your-repo
+1. git clone https://github.com/MisterStranger03/Simple-TodoApp.git
+2. cd Simple-TodoApp
 
 ---
 
@@ -71,33 +71,7 @@ The frontend will run at [http://localhost:3000](http://localhost:3000).
 
 ---
 
-## **5. Environment Variables (Optional)**
-
-If you need different URLs in production or staging, you can use environment variables:
-
-- **Backend**: In backend/.env, set DATABASE_URL or any other secrets.  
-- **Frontend**: In frontend/.env.local, set NEXT_PUBLIC_API_URL to your FastAPI server URL, for example:
-
-NEXT_PUBLIC_API_URL=https://my-fastapi-backend.onrailway.app
-
-
-Then in your code:
-js
-fetch(${process.env.NEXT_PUBLIC_API_URL}/tasks/)
-
-## **6. Additional Notes**
+## **5. Additional Notes**
 
 CORS: Ensure your FastAPI app is configured to allow requests from http://localhost:3000.
-Database: By default, this example uses SQLite. For production, consider PostgreSQL or another robust database.
-Deployment:
-Backend can be deployed on services like Railway, Heroku, or AWS.
-Frontend can be deployed on Vercel or Netlify.
-
-## **7. Contributing**
-1. Fork the repo and create a new branch.
-2. Make your changes and test thoroughly.
-3. Submit a pull request explaining your changes.
-
-## **8. License**
-This project is licensed under the MIT License. Feel free to use and modify this code.
-
+Database: By default, this project uses SQLite. For production, consider PostgreSQL or another robust database.
