@@ -14,7 +14,7 @@ A simple TODO application with a **FastAPI** backend and a **Next.js** frontend.
 
 ## **1. Cloning the Repository**
 
-git clone https://github.com/yourusername/your-repo.git 
+git clone [https://github.com/yourusername/your-repo.git ](https://github.com/MisterStranger03/Simple-TodoApp.git)
 cd your-repo
 
 ---
